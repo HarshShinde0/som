@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My IMDb Watched Movies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h4 style="background-color: #333; color: #ffc400; text-align: center; padding: 1rem;">
+        IMDb Watched Movies Leaderboard
+    </h4>
+    
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search movies...">
+        <button onclick="searchTable()">Search</button>
+    </div>
+
+    <div class="box">
+        <table id="data-table">
+            <thead>
+                <tr id="table-header">
+                    <th>Sr. No.</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+    </div>
+
+    <div id="tooltip" class="tooltip hidden"></div>
+    <script src="script.js"></script>
+</body>
+</html>

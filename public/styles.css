@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+.table-container {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.search-container {
+    text-align: center;
+    margin: 1rem;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
